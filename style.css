@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    font-size:x-large
+}
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#signupform{
+    margin: 1%;
+    width: 100vh;
+}
+.input{
+    width: 200vh;
+    margin: 1%;
+    padding: 1.5%;
+}
+
+#signupbtn{
+    margin: 1%;
+    padding: 1%;
+    background-color: black;
+    color: white;
+}
+
+#signupbtn:hover{
+    border-color: yellow;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#smallconfirmpassword{
+    display: none;
+    margin-left: 1%;
+}
+
+#loginbtn{
+    margin: 1%;
+    padding: 1%;
+    background-color: black;
+    color: white;
+}
+
+#loginbtn:hover{
+    border-color: yellow;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#changebtn{
+    margin: 1%;
+    padding: 1%;
+    background-color: black;
+    color: white;
+
+}
+
+#changebtn:hover{
+    border-color: yellow;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#logoutbtn{
+    margin: 1%;
+    padding: 1%;
+    background-color: black;
+    color: white;
+}
+
+#logoutbtn:hover{
+    border-color: yellow;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
